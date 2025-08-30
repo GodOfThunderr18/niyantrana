@@ -1,0 +1,13 @@
+prefix=D:/niyantrana/ml/mlenv/Library
+exec_prefix=D:/niyantrana/ml/mlenv/Library
+libdir=D:/niyantrana/ml/mlenv/Library/lib
+sharedlibdir=D:/niyantrana/ml/mlenv/Library/lib
+includedir=D:/niyantrana/ml/mlenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
