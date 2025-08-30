@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Niyantrana - Your Personalized Metabolic Wellness Companion
 
 A sophisticated, responsive, and habit-forming React Progressive Web App (PWA) that serves as a personalized early warning and management system for metabolic diseases, specifically targeting fatty liver, type-2 diabetes, and hypertension for an Indian user base.
@@ -198,3 +199,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Built with ❤️ for better metabolic health and wellness**
+=======
+# Niyantrana
+>>>>>>> e789916a70b47dd1b5640cb49601de065a0c9af0
