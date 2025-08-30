@@ -1,13 +1,12 @@
-<<<<<<< HEAD
 # Niyantrana - Your Personalized Metabolic Wellness Companion
 
 A sophisticated, responsive, and habit-forming React Progressive Web App (PWA) that serves as a personalized early warning and management system for metabolic diseases, specifically targeting fatty liver, type-2 diabetes, and hypertension for an Indian user base.
 
-## 🌟 Vision
+##  Vision
 
 Move beyond simple data tracking and create an intelligent, proactive companion that empowers users to understand their health, make better daily decisions, and build lasting healthy habits through a supportive and engaging experience.
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 The application's design is **Calm, Clear, and Empowering** with:
 - **Modern, clean, and minimalist aesthetic**
@@ -18,23 +17,23 @@ The application's design is **Calm, Clear, and Empowering** with:
 - **Subtle 2D micro-interactions** and smooth animations
 - **Lottie animations** for onboarding and achievements
 
-## 🚀 Features
+##  Features
 
-### 🔐 Authentication & Onboarding
+###  Authentication & Onboarding
 - **Glassmorphism UI** with beautiful natural backgrounds
 - **Multi-step conversational onboarding** (one question per screen)
 - **Foundational data collection**: Name, Age, Sex, Height, Weight, Family History, Smoking/Alcohol status
 - **Educational explanations** for why each data point matters
 - **Permissions priming** for Health Connect/HealthKit integration
 
-### 📊 Main Dashboard
+###  Main Dashboard
 - **Unified Metabolic Score**: Dynamic circular progress bar (0-100) with color-coded feedback
 - **Today's Focus Card**: AI-powered actionable insight for the day
 - **Daily Progress Rings**: Visual progress for Calories, Steps, and Sleep
 - **Quick-Log FAB**: Floating action button for meal, activity, and vital logging
 - **Recent Achievements**: Gamification elements with points and streaks
 
-### 🤖 AI Chatbot Companion
+###  AI Chatbot Companion
 - **Persistent chat icon** in bottom corner
 - **Full-screen conversational interface**
 - **Natural language logging** for meals, vitals, and activities
@@ -42,36 +41,36 @@ The application's design is **Calm, Clear, and Empowering** with:
 - **Proactive coaching** with motivational messages
 - **Nutritionist & Recipe Helper** with Indian food database
 
-### 📝 Smart Logging Features
+### Smart Logging Features
 - **Meal Logging**: Search with auto-complete, recent/frequent tabs, photo recognition
 - **Vitals Logging**: Blood pressure, glucose with immediate visual feedback
 - **Activity Tracking**: Steps, exercise, sleep patterns
 
-### 📈 Trends & Insights
+### Trends & Insights
 - **Correlated Insights**: Explicit connections between data points
 - **Long-term Risk Trajectory**: Metabolic score over time
 - **Detailed drill-down charts** for all key metrics
 - **Animated chart presentations**
 
-### 🏆 Gamification & Engagement
+### Gamification & Engagement
 - **Points & Levels System**: Wellness Novice → Explorer → Champion → Master
 - **Achievements Gallery**: Earned badges with unlock previews
 - **Streak Tracking**: Daily logging and activity streaks
 - **Personalized Quests**: Weekly challenges and goals
 
-### 👥 Community & Education
+### Community & Education
 - **Anonymous Support Circles**: Topic-based forums
 - **Educational Content Hub**: Expert-vetted articles and learning paths
 - **Doctor's Visit Report Generator**: Clean, shareable PDF summaries
 
-### ⚙️ Profile & Settings
+### Profile & Settings
 - **Personal details management**
 - **Connected devices management**
 - **Goal customization**
 - **Notification preferences**
 - **Theme selection**
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: React 18 with Hooks
 - **Styling**: Tailwind CSS with custom design system
@@ -83,7 +82,7 @@ The application's design is **Calm, Clear, and Empowering** with:
 - **PWA**: Service Worker support and offline capabilities
 - **Routing**: React Router DOM for navigation
 
-## 📱 PWA Features
+## PWA Features
 
 - **Installable** on mobile and desktop
 - **Offline support** with service worker
@@ -91,7 +90,7 @@ The application's design is **Calm, Clear, and Empowering** with:
 - **Responsive design** for all screen sizes
 - **Fast loading** with optimized assets
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 16+ 
@@ -118,7 +117,7 @@ The application's design is **Calm, Clear, and Empowering** with:
 4. **Open your browser**
    Navigate to `http://localhost:3000`
 
-### 🎯 Standalone Application
+### Standalone Application
 
 This application runs entirely in the browser using localStorage for data persistence. **No backend server, database, or API keys are required!** All features including:
 - User authentication and profiles
@@ -141,7 +140,7 @@ npm run build
 npm test
 ```
 
-## 🎯 Key Components
+##  Key Components
 
 - **`App.js`**: Main application with routing and authentication
 - **`AuthContext.js`**: User authentication and state management
@@ -150,7 +149,7 @@ npm test
 - **`LoginPage.js`**: Beautiful glassmorphism authentication
 - **`Navigation.js`**: Bottom navigation with floating action buttons
 
-## 🎨 Customization
+##  Customization
 
 ### Colors
 The app uses a custom Tailwind color palette:
@@ -167,7 +166,7 @@ Reusable component classes:
 - **`.btn-secondary`**: Secondary button with backdrop blur
 - **`.card-hover`**: Hover animations for cards
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **Enhanced AI responses** with more sophisticated mock conversations
 - **Health Connect/HealthKit** integration for real device data
@@ -177,7 +176,7 @@ Reusable component classes:
 - **Export/import** functionality for health data
 - **Offline-first** PWA capabilities with better caching
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -185,11 +184,11 @@ Reusable component classes:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Design Inspiration**: Modern wellness apps and medical interfaces
 - **Icons**: Lucide React for beautiful, consistent iconography
