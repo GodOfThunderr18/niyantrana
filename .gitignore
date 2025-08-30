@@ -1,0 +1,63 @@
+# ==============================================================================
+# --- Global Ignores (Apply to the entire project) ---
+# ==============================================================================
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore all environment variable files (SECURITY)
+*.env
+.env.*
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+
+# ==============================================================================
+# --- Python Specific (for ml/ and rag_engine/) ---
+# ==============================================================================
+
+# Ignore Python virtual environment folders
+ml/mlenv/
+rag_engine/ragenv/ # Or whatever you name the new venv
+
+# Ignore processed data that can be regenerated from scripts
+ml/data/processed/
+
+
+# ==============================================================================
+# --- Node.js Specific (for backend/ and frontend/) ---
+# ==============================================================================
+# This assumes your frontend and backend are Node.js based (e.g., Express, React)
+
+# Ignore the massive node_modules folder in all subdirectories
+**/node_modules
+
+# Ignore log files
+*.log
+
+# Ignore build output
+**/build/
+**/dist/
+
+# Ignore local config files
+.env.local
+
+
+# ==============================================================================
+# --- IMPORTANT REMINDER FOR LARGE FILES ---
+# ==============================================================================
+# The following files SHOULD NOT be in this .gitignore file.
+# They MUST be tracked by Git LFS (Large File Storage) instead.
+#
+# models/*.h5
+# models/*.pkl
+# data/raw/*.csv
+# data/raw/*.xlsx
+```
